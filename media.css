@@ -1,0 +1,869 @@
+@media (max-width: 575.98px) {
+    br {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    .navbar .links,
+    .navbar .search_form {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .dropdown_menu {
+        left: 32px;
+        width: unset;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    /* banner section */
+    .banner {
+        height: auto;
+    }
+
+    .first_half {
+        width: 100%;
+        padding: 0;
+    }
+
+    .second_half {
+        width: 100%;
+        padding: 0;
+    }
+
+    #main_box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #cat_img {
+        margin: 50px auto;
+        width: 80%;
+        display: block;
+    }
+
+    #banner_head1 {
+        font-size: 48.67px;
+        padding-left: 13px;
+        padding-top: 104px;
+    }
+
+    #banner_para {
+        padding-left: 13px;
+    }
+
+    .buttons {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .btn {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .btn1 {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .second_half {
+        padding: 0;
+    }
+
+    /* our services section */
+    .services {
+        height: auto;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .part {
+        width: 100%;
+    }
+
+    #services1_box {
+        text-align: center;
+    }
+
+    #our_services_head1 {
+        font-size: 47px;
+        padding-top: 77px;
+    }
+
+    #our_services_para {
+        font-size: 27.17px;
+    }
+
+    #btn {
+        margin-bottom: 50px;
+    }
+
+    #second_part_main_box {
+        margin-left: 40px;
+        margin-bottom: 80px;
+        width: 272px;
+        height: 269px;
+    }
+
+    #services_img_bg {
+        width: 130px;
+        height: 116px;
+    }
+
+    /* class section */
+    .first_card {
+        margin-bottom: 40px;
+    }
+
+    /* card section */
+    .card_section {
+        height: auto;
+    }
+
+    #second_row {
+        padding-bottom: 30px;
+    }
+
+    /* services section2 */
+    .services2 {
+        height: auto;
+    }
+
+    #services2 {
+        flex-direction: column;
+    }
+
+    #services2_part1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #services2_main_box img {
+        max-width: 100%;
+    }
+
+    #services2_main_box {
+        width: 241px;
+        height: 242px;
+    }
+
+    #serevices2_head1 {
+        padding-top: 1px;
+    }
+
+    #services2_text {
+        text-align: center;
+    }
+
+    .services2_part {
+        width: 100%;
+    }
+
+    #bg {
+        width: 95px;
+        height: 103px;
+    }
+
+    /* buy_now section */
+    .buy_now {
+        height: auto;
+    }
+
+    #buy_now_grid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buy_now_card {
+        margin-bottom: 40px;
+    }
+
+    /* vetcare section*/
+    .vetcare {
+        height: auto;
+    }
+
+    #vetcare_row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vetcare_card {
+        margin-bottom: 30px;
+    }
+
+    /* happy_client */
+    .happy_client {
+        height: auto;
+    }
+
+    #happy_client_main {
+        flex-direction: column;
+    }
+
+    .client_card {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* post section */
+    .post {
+        height: auto;
+    }
+
+    #post_row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post_card {
+        margin-bottom: 40px;
+    }
+
+    /* footer section */
+    .footer {
+        height: auto;
+    }
+
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #third_main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_form {
+        width: 232px;
+        height: 46px;
+        margin: 40px auto;
+    }
+
+    .first {
+        padding-right: 0;
+        padding-top: 88px;
+    }
+
+    .second {
+        padding-top: 74px;
+    }
+
+    .third {
+        padding-top: 76px;
+    }
+
+    #social_media {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    br {
+        display: none;
+    }
+
+    br {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    .navbar .links,
+    .navbar .search_form {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .dropdown_menu {
+        left: 32px;
+        width: unset;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    /* banner section */
+    .banner {
+        height: auto;
+    }
+
+    .first_half {
+        width: 100%;
+        padding: 0;
+    }
+
+    .second_half {
+        width: 100%;
+        padding: 0;
+    }
+
+    #main_box {
+        flex-direction: column;
+    }
+
+    #cat_img {
+        margin: 50px auto;
+        width: 80%;
+        display: block;
+    }
+
+    #banner_head1 {
+        font-size: 48.67px;
+        padding-left: 13px;
+        padding-top: 131px;
+    }
+
+    #banner_para {
+        padding-left: 13px;
+    }
+
+    .buttons {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .btn {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .btn1 {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .second_half {
+        padding: 0;
+    }
+
+    /* our services section */
+    .services {
+        height: auto;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .part {
+        width: 100%;
+    }
+
+    #services1_box {
+        text-align: center;
+    }
+
+    #our_services_head1 {
+        font-size: 47px;
+        padding-top: 120px;
+    }
+
+    #our_services_para {
+        font-size: 27.17px;
+    }
+
+    #btn {
+        margin-bottom: 50px;
+    }
+
+    #second_part_main_box {
+        margin-left: 40px;
+        margin-bottom: 80px;
+
+    }
+
+    /* card section */
+    .card_section {
+        height: auto;
+    }
+
+    #second_row {
+        padding-bottom: 30px;
+    }
+
+    /* services section2 */
+    .services2 {
+        height: auto;
+    }
+
+    #services2 {
+        flex-direction: column;
+    }
+
+    #services2_part1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #services2_main_box img {
+        max-width: 100%;
+    }
+
+    #services2_text {
+        text-align: center;
+    }
+
+    .services2_part {
+        width: 100%;
+    }
+
+    #serevices2_head1 {
+        padding-top: 84px;
+    }
+
+    /* buy_now section */
+    .buy_now {
+        height: auto;
+    }
+
+    #buy_now_grid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buy_now_card {
+        margin-bottom: 40px;
+    }
+
+    /* vetcare section*/
+    .vetcare {
+        height: auto;
+    }
+
+    #vetcare_row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vetcare_card {
+        margin-bottom: 30px;
+    }
+
+    /* happy_client */
+    .happy_client {
+        height: auto;
+    }
+
+    #happy_client_main {
+        flex-direction: column;
+    }
+
+    .client_card {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* post section */
+    .post {
+        height: auto;
+    }
+
+    #post_row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post_card {
+        margin-bottom: 40px;
+    }
+
+    /* footer section */
+    .footer {
+        height: auto;
+    }
+
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #third_main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_form {
+        width: 232px;
+        height: 46px;
+        margin: 40px auto;
+    }
+
+    .first {
+        padding-right: 0;
+        padding-top: 88px;
+    }
+
+    .second {
+        padding-top: 74px;
+    }
+
+    .third {
+        padding-top: 76px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    br {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    .navbar .links,
+    .navbar .search_form {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+    .dropdown_menu {
+        left: 32px;
+        width: unset;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .banner {
+        width: 100%;
+        height: 690px;
+    }
+
+    #banner_head1 {
+        font-size: 44.67px;
+    }
+
+    #banner_para {
+        font-size: 22.17px;
+    }
+
+    .btn {
+        width: 133px;
+        height: 53px;
+    }
+
+    .btn1 {
+        width: 133px;
+        height: 53px;
+    }
+
+    #main_box {
+        max-width: 100%;
+    }
+
+    #cat_img {
+        width: 300px;
+    }
+
+    #our_services_head1 {
+        font-size: 38px;
+    }
+
+    #our_services_para {
+        font-size: 22.17px;
+    }
+
+    #second_part_main_box {
+        width: 345px;
+        height: 332px;
+    }
+
+    #services_img_bg {
+        width: 158px;
+        height: 143px;
+    }
+
+    #services1_box {
+        margin: 10px;
+    }
+
+    .card_section {
+        height: auto;
+    }
+
+    .first_card {
+        margin-bottom: 40px;
+    }
+
+    #services2_text {
+        margin: 10px;
+    }
+
+    #services2_main_box {
+        max-width: 353px;
+        height: 359px;
+        margin: 246px auto;
+    }
+
+    #bg {
+        width: 150px;
+        height: 154px;
+    }
+
+    .first {
+        padding-right: 0;
+    }
+
+    .first_half {
+        padding-top: 0;
+        margin: 20px;
+    }
+
+    .second_half {
+        padding-top: 23px;
+        margin: 10px;
+    }
+
+    .buy_now_card {
+        width: 251px;
+    }
+
+    .vetcare_card {
+        width: 242px;
+    }
+
+    .post_card {
+        width: 250px;
+    }
+
+    #post_card2 {
+        height: 619px !important;
+    }
+
+    #post_row2 {
+        justify-content: space-around;
+    }
+
+    #footer {
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    #third_main {
+        width: 100%;
+    }
+
+    #third_main {
+        width: 100%;
+        text-align: unset;
+    }
+
+    .footer_form {
+        margin-left: 0;
+        width: 305px;
+        height: 69px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    br {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header{
+        padding: 15px;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+    .search_form{
+        width: 235px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    #banner_head1 {
+        font-size: 44.67px;
+    }
+
+    #banner_para {
+        font-size: 22.17px;
+    }
+
+    .btn {
+        width: 133px;
+        height: 53px;
+    }
+
+    .btn1 {
+        width: 133px;
+        height: 53px;
+    }
+
+    .first_half {
+        margin: 20px;
+    }
+
+    #main_box {
+        max-width: 100%;
+    }
+
+    #services1_box {
+        margin: 20px;
+    }
+
+    #cat_img {
+        width: 300px;
+    }
+
+    #services2_text {
+        margin: 20px;
+    }
+
+    #our_services_head1 {
+        font-size: 38px;
+    }
+
+    #our_services_para {
+        font-size: 22.17px;
+    }
+
+    #second_part_main_box {
+        width: 345px;
+        height: 332px;
+    }
+
+    #services_img_bg {
+        width: 158px;
+        height: 143px;
+    }
+
+    .card_section {
+        height: auto;
+    }
+
+    .first_card {
+        margin: 0 10px 40px 10px;
+    }
+
+    #services2_main_box {
+        max-width: 353px;
+        height: 359px;
+        margin: 246px auto;
+    }
+
+    #bg {
+        width: 150px;
+        height: 154px;
+    }
+
+    .first {
+        padding-right: 0;
+    }
+
+    .buy_now_card {
+        width: 251px;
+    }
+
+    .vetcare_card {
+        width: 242px;
+    }
+
+    .post_card {
+        width: 250px;
+    }
+
+    #post_card2 {
+        height: 619px !important;
+    }
+
+    #post_row2 {
+        justify-content: space-around;
+    }
+
+    #footer {
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    #third_main {
+        width: 100%;
+    }
+
+    #third_main {
+        width: 100%;
+        text-align: unset;
+    }
+
+    .footer_form {
+        margin-left: 0;
+        width: 305px;
+        height: 69px;
+    }
+
+    #second_row {
+        flex-wrap: unset;
+    }
+}

@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 1148px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* navbar section */
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 29.17px;
+}
+header{
+    position: fixed;
+    background-color: #daac00;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 29px;
+}
+
+.links{
+    display: flex;
+    gap: 39px;
+}
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+}
+.search_form{
+    width: 279px;
+    height: 57px;
+    background-color: #fcc302;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 12px rgb(138, 134, 134);
+}
+.search_form input{
+    font-size: 20.83px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 0 16px;
+    background-color: #fcc302;
+    border: none;
+    outline: none;
+}
+.search_form label{
+    padding: 15px;
+    background-color: #00bec9;
+    cursor: pointer;
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 32px;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open{
+    height: 300px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu .search_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* banner section */
+.banner{
+    height: 900px;
+    background-color: #fcc302;
+}
+#banner_head1{
+    font-size: 66.67px;
+    color: #fff;
+}
+#banner_para{
+    font-size: 29.17px;
+    color: #fff;
+}
+#main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1160px;
+    margin: auto;
+}
+.first_half{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 66px;
+   
+}
+.btn{
+    width: 185px;
+    height: 70px;
+    color: #fff;
+    font-size: 20.87px;
+    background-color: #00bec9;
+    border: none;
+    outline: none;
+    line-height: 0;
+    border-radius: 6px;
+    margin-top: 46px;
+    cursor: pointer;
+}
+.btn1{
+    width: 185px;
+    height: 70px;
+    color: #fff;
+    font-size: 20.87px;
+    background-color: #fcc302;
+    border: 3px solid #fff;
+    outline: none;
+    line-height: 0;
+    border-radius: 6px;
+    margin-top: 46px;
+    margin-left: 36px;
+    cursor: pointer;
+}
+.second_half{
+    width: 40%;
+    padding-top: 212px;
+}
+/* our services section */
+.services{
+    height: 796px;
+}
+#services{
+    display: flex;
+    height: 100%;
+}
+.part{
+    width: 50%;
+    height: 100%;
+}
+#our_services_head1{
+    font-size: 50px;
+    color: #313243;
+    padding-top: 220px;
+    margin-bottom: 0;
+}
+#our_services_para{
+    font-size: 29.17px;
+    color: #313243;
+    padding-top: 54px;
+    margin-bottom: 0;
+}
+#btn{
+    font-size: 20.83px;
+    color: #fff;
+    background-color: #fcc302;
+    width: 185px;
+    height: 70px;
+    line-height: 0;
+    border: none;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+#second_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second_part_main_box{
+    width: 507px;
+    height: 482px;
+    background-color: #fcc302;
+    position: relative;
+}
+
+#services_img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+#services_img_bg{
+    width: 253px;
+    height: 208px;
+    background-color: #fcc302;
+    position: absolute;
+    top: 66%;
+    left: -9%;
+    z-index: -1;
+}
+
+/* card_section */
+.card_section{
+    height: 1015px;
+    background-color: #fcc302;
+}
+#first_row{
+    text-align: center;
+}
+#vaccination_head1{
+    font-size: 75px;
+    color: #ffffff;
+    padding-top: 109px;
+}
+#vaccination_para{
+    font-size: 33.33px;
+    color: #ffffff;
+    padding-top: 49px;
+}
+#second_row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.first_card{
+    text-align: center;
+}
+.first_card img{
+    width: 100%;
+}
+.card_head{
+    font-size: 37.5px;
+    color: #fff;
+    padding-top: 50px;
+}
+.card_para{
+    font-size: 25px;
+    color: #fff;
+    padding-top: 20px;
+}
+/* services section2 */
+.services2{
+    height: 795px;
+}
+#services2{
+    display: flex;
+}
+.services2_part{
+    width: 50%;
+    height: 100%;
+}
+
+#services2_main_box{
+    max-width: 506px;
+    height: 480px;
+    background-color: #fcc302;
+    margin: 140px auto;
+    position: relative;
+}
+#services2_main_box img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+#bg{
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    position: absolute;
+    left: 68%;
+    top: 67%;
+    z-index: -1;
+}
+
+
+#serevices2_head1{
+    font-size: 49.86px;
+    color: #313243;
+    padding-top: 224px;
+}
+#services2-para{
+    font-size: 29.27px;
+    color: #313243;
+    padding-top: 52px;
+}
+#services2_text{
+    text-align: end;
+}
+/* buy_now section */
+.buy_now{
+    height: 1018px;
+    max-width: 100%;
+    background-color: #fcc302;
+}
+.buy_now_row1{
+    text-align: center;
+}
+#buy_now_head1{
+    font-size: 75px;
+    color: #ffffff;
+    padding-top: 109px;
+}
+#buy_now_para{
+    font-size: 33.33px;
+    color: #ffffff;
+    padding-top: 49px;
+}
+.buy_now_row2{
+    padding-top: 96px;
+}
+.buy_now_card{
+    max-width: 347px;
+    max-height: 524px;
+    text-align: center;
+}
+.buy_price{
+    font-size: 41.67px;
+    color: #fff;
+    padding-top: 40px;
+}
+.buy_now_card button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #00bec9;
+    color: #fff;
+    line-height: 0;
+    border: none;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#buy_now_grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy_now_card img{
+    max-width: 100%;
+}
+/* vetcare section*/
+.vetcare{
+    height: 1074px;
+}
+#vetcare_row1{
+    text-align: center;
+}
+#vetcare_head1{
+    font-size: 75px;
+    color: #313243;
+    padding-top: 147px;
+}
+#vetcare_para1{
+    font-size: 33.33px;
+    color: #313243;
+    padding-top: 52px;
+}
+#vetcare_row2{
+    padding-top: 100px;
+}
+.vetcare_card{
+    max-width: 365px;
+    height: 519px;
+    text-align: center;
+}
+.vetcare_card img{
+    width: 100%;
+}
+.vetcare_card_head{
+    font-size: 29.17px;
+    color: #313243;
+    padding-top: 42px;
+}
+.vetcare_card_para{
+    font-size: 25px;
+    color: #313243;
+    padding-top: 19px;
+}
+.media{
+    width: 204px;
+    height: 48px;
+    margin: 30px auto;
+}
+#vetcare_row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-brands{
+    background-color: #daac00;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding:5px;
+    font-size: 25px;
+    height: 24px;
+    width: 22px;
+    margin-left: 10px;
+}
+/* happy_client */
+.happy_client{
+    height: 574px;
+    background-color: #daac00;
+    background-image: url(happy_client.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.client_card{
+    max-width: 268px;
+    height: 249px;
+    text-align: center;
+}
+#happy_client_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.happy_client_head{
+    font-size: 41.67px;
+    color: #fff;
+    padding-top: 56px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.happy_client_para{
+    font-size: 37.5px;
+    color: #fff;
+    padding-top: 25px;
+    line-height: 1;
+}
+.icon{
+    width: 109px;
+    height: 94px;
+   display: inline;
+}
+/* post section */
+.post{
+    height: 1180px;
+}
+#post_head1{
+    font-size: 75px;
+    color: #313243;
+    padding-top: 142px;
+    margin-bottom: 0;
+}
+#post_para{
+    font-size: 33.33px;
+    color: #313243;
+    padding-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 98px;
+}
+#post_row{
+    text-align: center;
+}
+#post_row2{
+    display: flex;
+    justify-content: space-between;
+}
+.post_card{
+    max-width: 361px;
+    height: 632px;
+}
+.post_card img{
+    width: 100%;
+}
+.post_text_head1{
+    font-size: 25px;
+    color: #313243;
+}
+.post_text_para1{
+    font-size: 16.67px;
+    color: #00bec9;
+    padding-top: 18px;
+}
+.post_text_para2{
+    font-size: 16.67px;
+    color: #313243;
+    padding-top: 30px;
+}
+.post_text_head2{
+    font-size: 20.83px;
+    color: #00bec9;
+    padding-top: 30px;
+}
+.post_text_card{
+    padding: 31px;
+    border-left: 2px solid #d6d6d6;
+    border-bottom: 2px solid #d6d6d6;
+    border-right: 2px solid #d6d6d6;
+}
+.post_text_card2{
+    padding: 31px;
+}
+#post_card2{
+    box-shadow: 0px 0px 12px -6px grey;
+    height: 656px!important;
+}
+/* footer section */
+.footer{
+    height: 656px;
+    background-color: #343434;
+}
+#footer{
+    display: flex;
+}
+.head{
+    font-size: 37.5px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.first{
+    padding-top: 167px;
+    padding-right: 102px;
+}
+.first a,.second a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.first a p,.second a p{
+    padding-bottom: 20px;
+}
+.second{
+    padding-top: 167px;
+}
+.third{
+    padding-top: 167px;
+}
+#third_head{
+    font-size: 37.5px;
+    color: #fff;
+}
+#third_main{
+    width: 616px;
+    text-align: end;
+}
+#third_para{
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 22px;
+}
+.footer_form{
+    width: 450px;
+    height: 94px;
+    background-color: #fcc302;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-left: 168px;
+    margin-top: 52px;
+}
+.footer_form input{
+    font-size: 20.83px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 0 16px;
+    background-color: #fcc302;
+    border: none;
+    outline: none;
+}
+.footer_form label{
+    padding: 34px;
+    background-color: #00bec9;
+    cursor: pointer;
+}
+#social_media{
+    padding-top: 49px;
+}
+#social_media a img{
+    padding-right: 10px;
+}

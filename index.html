@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <header class="header active">
+        <div class="navbar">
+            <div class="logo"><img src="navbar logo.png" alt="pic"></div>
+            <ul class="links">
+                <li><a class="navbar-link" href="">Home</a></li>
+                <li><a class="navbar-link" href="">About</a></li>
+                <li><a class="navbar-link" href="">Service</a></li>
+                <li><a class="navbar-link" href="">Contact</a></li>
+            </ul>
+
+            <form action="" class="search_form">
+                <input type="search" placeholder="Search.." id="search_box">
+                <label for=""><img src="Search Button.png" alt="pic"></label>
+            </form>
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu ">
+            <li><a class="navbar-link" href="">Home</a></li>
+            <li><a class="navbar-link" href="">About</a></li>
+            <li><a class="navbar-link" href="">Service</a></li>
+            <li><a class="navbar-link" href="">Contact</a></li>
+            <li>
+                <form action="" class="search_form">
+                    <input type="search" placeholder="Search.." id="search_box">
+                    <label for=""><img src="Search Button.png" alt="pic"></label>
+                </form>
+            </li>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section class="banner">
+        <div class="container" id="main_box">
+            <div class="first_half">
+                <h1 id="banner_head1">First I wanted to be <br> a veterinarian</h1>
+                <p id="banner_para">Lorem Ipsum available but the majority have <br>suffered alteration in some form, by
+                    injected <br>
+                    humour randomised words.</p>
+                <div class="buttons">
+                    <button class="btn">Contact Us</button>
+                    <button class="btn1">Our Services</button>
+                </div>
+            </div>
+            <div class="second_half">
+                <img id="cat_img" src="banner img.png" alt="pic">
+            </div>
+        </div>
+    </section>
+    <!-- our services section -->
+    <section class="services">
+        <div class="container" id="services">
+            <div class="part" id="first_part">
+                <div id="services1_box">
+                    <h2 id="our_services_head1">As a veterinarian and <br>lover of animals.</h2>
+                    <p id="our_services_para">Lorem Ipsum available but the majoty <br>suffered alteration in some form,
+                        by
+                        <br>humour randomised words.
+                    </p>
+                    <button id="btn">Our Service</button>
+                </div>
+            </div>
+            <div class="part" id="second_part">
+                <div id="second_part_main_box">
+                    <img id="services_img" src="our services img1.png" alt="pic">
+                    <div id="services_img_bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card section1 -->
+    <section class="card_section">
+        <div class="container">
+            <div id="first_row">
+                <h1 id="vaccination_head1">Title Here</h1>
+                <p id="vaccination_para"> Lorem Ipsum available, but the majority have <br>suffered alteration in some
+                    form.
+                </p>
+            </div>
+            <div id="second_row">
+                <div class="first_card" id="first_card1">
+                    <img src="vaccination1.png" alt="pic">
+                    <h3 class="card_head">Veterinarian</h3>
+                    <p class="card_para"> Lorem Ipsum available, but <br>the majority have suffered <br>alteration in
+                        some.</p>
+                </div>
+                <div class="first_card" id="first_card2">
+                    <img src="vaccination2.png" alt="pic">
+                    <h3 class="card_head">Vaccination Care</h3>
+                    <p class="card_para"> Lorem Ipsum available, but <br>the majority have suffered <br>alteration in
+                        some.</p>
+                </div>
+                <div class="first_card" id="first_card3">
+                    <img src="vaccination3.png" alt="pic">
+                    <h3 class="card_head">Dental Care</h3>
+                    <p class="card_para"> Lorem Ipsum available, but <br>the majority have suffered <br>alteration in
+                        some.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- our services section2 -->
+    <section class="services2">
+        <div class="container" id="services2">
+            <div class="services2_part" id="services2_part1">
+
+                <div id="services2_main_box">
+                    <img src="services2 img.png" alt="pic">
+                    <div id="bg"></div>
+                </div>
+
+            </div>
+            <div class="services2_part" id="services2_part2">
+                <div id="services2_text">
+                    <h2 id="serevices2_head1">As a veterinarian and <br>lover of animals</h2>
+                    <p id="services2-para">Lorem Ipsum available but the majoty <br>suffered alteration in some form, by
+                        <br> humour randomised words
+                    </p>
+                    <button id="btn">Our Service</button>
+                </div>
+            </div>
+    </section>
+    <!-- buy_now section -->
+    <section class="buy_now">
+        <div class="buy_now_row1">
+            <h1 id="buy_now_head1">Title Here</h1>
+            <p id="buy_now_para"> Lorem Ipsum available, but the majority have <br>suffered alteration in some form.</p>
+        </div>
+        <div class="buy_now_row2">
+            <div class="container" id="buy_now_grid">
+                <div class="buy_now_card" id="buy_now_card1">
+                    <img src="buy1.png" alt="pic" id="buy_img1">
+                    <h1 class="buy_price"> <del>$50</del>&nbsp $30</h1>
+                    <button>
+                        Buy Now
+                    </button>
+                </div>
+                <div class="buy_now_card" id="buy_now_card2">
+                    <img src="buy2.png" alt="pic" id="buy_img1">
+                    <h1 class="buy_price"> <del>$40</del>&nbsp $25</h1>
+                    <button>
+                        Buy Now
+                    </button>
+                </div>
+                <div class="buy_now_card" id="buy_now_card3">
+                    <img src="buy3.png" alt="pic" id="buy_img1">
+                    <h1 class="buy_price"> <del>$45</del>&nbsp $20</h1>
+                    <button>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vetcare section -->
+    <section class="vetcare">
+        <div class="container" id="vetcare_row">
+            <div id="vetcare_row1">
+                <h1 id="vetcare_head1">The vetcare team</h1>
+                <p id="vetcare_para1"> Lorem Ipsum available, but the majority have <br>suffered alteration in some
+                    form.</p>
+            </div>
+            <div id="vetcare_row2">
+                <div class="vetcare_card" id="vetcare_card1">
+                    <img src="vetcare1.png" alt="pic">
+                    <h2 class="vetcare_card_head">Jennifer Mullen</h2>
+                    <p class="vetcare_card_para">VETERINARY</p>
+                    <div class="media">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="vetcare_card" id="vetcare_card1">
+                    <img src="vetcare2.png" alt="pic">
+                    <h2 class="vetcare_card_head">Sheeren Collins</h2>
+                    <p class="vetcare_card_para">ADMINISTRATION</p>
+                    <div class="media">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="vetcare_card" id="vetcare_card1">
+                    <img src="vetcare3.png" alt="pic">
+                    <h2 class="vetcare_card_head">Jennifer Mullen</h2>
+                    <p class="vetcare_card_para">VETERINARY</p>
+                    <div class="media">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="happy_client">
+        <div class="container" id="happy_client_main">
+            <div class="client_card" id="client_card1">
+                <div class="icon">
+                    <img src="happy_client1.png" alt="pic">
+                </div>
+                <h2 class="happy_client_head">+34793</h2>
+                <p class="happy_client_para">Happy Clients</p>
+            </div>
+            <div class="client_card" id="client_card1">
+                <div class="icon">
+                    <img src="happy_client2.png" alt="pic">
+                </div>
+                <h2 class="happy_client_head">+45382</h2>
+                <p class="happy_client_para">Departament</p>
+            </div>
+            <div class="client_card" id="client_card1">
+                <div class="icon">
+                    <img src="happy_client3.png" alt="pic">
+                </div>
+                <h2 class="happy_client_head">+54762</h2>
+                <p class="happy_client_para">Vaccinations</p>
+            </div>
+        </div>
+    </section>
+    <section class="post">
+        <div class="container" id="post_main">
+            <div id="post_row">
+                <h1 id="post_head1">Recent Posts</h1>
+                <p id="post_para"> Lorem Ipsum available, but the majority have <br>suffered alteration in some form.
+                </p>
+            </div>
+            <div id="post_row2">
+                <div class="post_card" id="post_card1">
+                    <img src="post1.png" alt="pic">
+                    <div class="post_text_card">
+                        <h3 class="post_text_head1">As a veterinarian and <br>lover of animals</h3>
+                        <p class="post_text_para1">FEBRUARY 09, 2020</p>
+                        <p class="post_text_para2">Lorem Ipsum available, but the majo <br>rity have suffered alteration
+                            in some <br> words which look.</p>
+                        <h4 class="post_text_head2">Read More+</h4>
+                    </div>
+                </div>
+                <div class="post_card" id="post_card2">
+                    <img src="post2.png" alt="pic">
+                    <div class="post_text_card2">
+                        <h3 class="post_text_head1">As a veterinarian and <br>lover of animals</h3>
+                        <p class="post_text_para1">FEBRUARY 10, 2020</p>
+                        <p class="post_text_para2">Lorem Ipsum available, but the majo <br>rity have suffered alteration
+                            in some <br> words which look.</p>
+                        <h4 class="post_text_head2">Read More+</h4>
+                    </div>
+                </div>
+                <div class="post_card" id="post_card1">
+                    <img src="post3.png" alt="pic">
+                    <div class="post_text_card">
+                        <h3 class="post_text_head1">As a veterinarian and <br>lover of animals</h3>
+                        <p class="post_text_para1">FEBRUARY 20, 2020</p>
+                        <p class="post_text_para2">Lorem Ipsum available, but the majo <br>rity have suffered alteration
+                            in some <br> words which look.</p>
+                        <h4 class="post_text_head2">Read More+</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container" id="footer">
+            <div class="first">
+                <h2 class="head">About</h2>
+                <a href="">
+                    <p>History</p>
+                </a>
+                <a href="">
+                    <p>Our Team</p>
+                </a>
+                <a href="">
+                    <p>Brand Guidelines</p>
+                </a>
+                <a href="">
+                    <p>Terms & Condition</p>
+                </a>
+                <a href="">
+                    <p>Privacy Policy</p>
+                </a>
+            </div>
+            <div class="second">
+                <h2 class="head">Services</h2>
+                <a href="">
+                    <p>How to Order</p>
+                </a>
+                <a href="">
+                    <p>Our Product</p>
+                </a>
+                <a href="">
+                    <p>Order Status</p>
+                </a>
+                <a href="">
+                    <p>Promo</p>
+                </a>
+                <a href="">
+                    <p>Payment Method</p>
+                </a>
+            </div>
+            <div class="third">
+                <div id="third_main">
+                    <h2 id="third_head">Title Here</h2>
+                    <p id="third_para"> Lorem Ipsum available, but the majorit </p>
+                    <form action="" class="footer_form">
+                        <input type="search" placeholder="" id="search_box">
+                        <label for=""><img src="footer search button.png" alt="pic"></label>
+                    </form>
+                    <div id="social_media">
+                        <a href=""><img src="Instagram footer.png" alt="pic"></a>
+                        <a href=""><img src="Facebook footer.png" alt="pic"></a>
+                        <a href=""><img src="Twitter footer.png" alt="pic"></a>
+                        <a href=""><img src="WhatsApp footer.png" alt="pic"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- javascript -->
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+</body>
+
+</html>
